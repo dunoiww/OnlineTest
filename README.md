@@ -21,11 +21,16 @@ View (User interface):
     * Shows the conversion result in real-time.
     * If an error occurs (e.g., network issue), a Toast notification is displayed.
 
+**Unit test**
+* I have added unit tests to test main functionality of the application.
+* To run Unit test:
+```cmd + U```
+
 **Step to build and run the app**
 
-+ Clone the project from the github: https://github.com/dunoiww/OnlineTest.
-+ Open the folder CurrencyConverter by the Xcode.
-+ Click Run to build the project.
+* Clone the project from the github: https://github.com/dunoiww/OnlineTest.
+* Open the folder CurrencyConverter by the Xcode.
+* Click Run to build the project.
 
 ## Challegen 2
 **Question 2.1: Product Inventory Management**
