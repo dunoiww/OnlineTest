@@ -9,6 +9,12 @@
 
 using namespace std;
 
+void inputArray (int a[], int n) {
+    for (int i = 0; i < n; i++) {
+        cin >> a[i];
+    }
+}
+
 int missingNumber(int a[], int n) {
     int sumOfN = (n + 1) * (n + 2) / 2;
     int sum = 0;
@@ -22,9 +28,8 @@ int main(int argc, const char * argv[]) {
     int n;
     cin >> n;
     int a[n];
-    for (int i = 0; i < n; i++) {
-        cin >> a[i];
-    }
+    
+    inputArray(a, n);
    
     cout << missingNumber(a, n) << endl;
     
