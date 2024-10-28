@@ -64,7 +64,7 @@ string Inventory::getMostExpensiveProduct()
 
 bool Inventory::productIsInStock()
 {
-    cout << "Enter the name of the product: ";
+    cout << "Enter the name of the product to check is in stock: ";
     string name;
     cin >> name;
     for (int i = 0; i < n; i++)
@@ -79,7 +79,7 @@ bool Inventory::productIsInStock()
 
 void Inventory::sortProduct()
 {
-    cout << "Sort by name or price?" << endl;
+    cout << "Sort by Price or Quantity?" << endl;
     cout << "1. Price" << endl;
     cout << "2. Quantity" << endl;
     int choice;
